@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1gVwgXYV2tu5TgMshENexaMNgvJH2usqy
 """
 
-!pip install -q langchain langchain-google-genai langchain-core pydantic
 
 # Cell 1: API Key
 from google.colab import userdata
