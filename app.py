@@ -6,7 +6,8 @@ from pydantic import BaseModel, Field
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 
-app = Flask(__name__)\napp.secret_key = os.environ.get("FLASK_SECRET_KEY", "viva-secret-key")
+app = Flask(__name__)
+app.secret_key = os.environ.get("FLASK_SECRET_KEY", "viva-secret-key")
 
 TOPICS = [
     "Verilog",
